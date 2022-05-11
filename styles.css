@@ -116,7 +116,7 @@ p {
     font-size: 1.75rem;
   }
   h4 {
-    font-size: 1rem;
+    font-size: 2.5rem;
   }
   body {
     font-size: 1rem;
@@ -163,7 +163,7 @@ h3{
 
 nav {
   background: var(--clr-white);
-  height: 3rem;
+  height: 4rem;
   display: grid;
   align-items: center;
   box-shadow: var(--dark-shadow);
@@ -174,7 +174,7 @@ nav {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .nav-center h4 {
   margin-bottom: 0;
@@ -221,8 +221,8 @@ main {
 .btn-hero {
   font-family: Quicksand, sans-serif;
   text-transform: lowercase;
-  background: white;
-  color: var(--clr-black);
+  background: black;
+  color: var(--clr-primary-5);
   letter-spacing: var(--spacing);
   display: inline-block;
   font-weight: 700;
@@ -236,5 +236,5 @@ main {
 }
 .btn-hero:hover {
   color: var(--clr-white);
-  background: blue;
+  background: var(--clr-primary-5);
 }
